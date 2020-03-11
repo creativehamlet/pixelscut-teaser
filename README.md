@@ -1,24 +1,34 @@
-# website
 
-## Project setup
+# pixelscut-website
+Marketing website for Pixelscut
+
+## Documentation
+
+[Documentation](https://github.com/creativehamlet/pixelscut-website)
+
+
+## Installation
+
+
+
+### Install with Git
+
+Clone the repo.
 ```
-npm install
+git clone https://github.com/creativehamlet/pixelscut-website.git
 ```
 
-### Compiles and hot-reloads for development
+Go into the repo.
+```
+cd pixelscut-website
+```
+
+Install the dependencies.
+```
+npm i
+```
+
+Build for dev and run on local server.
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
