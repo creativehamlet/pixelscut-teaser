@@ -1,9 +1,9 @@
 <template>
-  <div id="app">
+  <v-app>
       <fade-transition origin="center" mode="out-in" :duration="250">
         <component :is="layout"></component>
       </fade-transition>
-  </div>
+  </v-app>
 </template>
 
 <script>
